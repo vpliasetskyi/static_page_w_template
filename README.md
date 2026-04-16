@@ -17,7 +17,7 @@ Use only render, for every page add any of these data  in the main block (includ
 
 --------------------------------------------------------
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Home Page
 ![Home Page](screenshots/home.png)
