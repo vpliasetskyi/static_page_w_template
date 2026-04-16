@@ -1,13 +1,13 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" {% block theme %}{% endblock %}>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}My cool website with templates {% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'static_with_template/css/daisyui.css'%}" type="text/css">
-    <script src="{% static 'static_with_template/js/tailwind.js'%}"></script>
-    <link rel="stylesheet" href="{% static 'static_with_template/css/themes.css'%}" type="text/css">
+    <link rel="stylesheet" href="{% static 'static_with_template/css/daisyui.css' %}">
+    <link rel="stylesheet" href="{% static 'static_with_template/css/themes.css' %}">
+    <script src="{% static 'static_with_template/js/tailwind.js' %}"></script>
 </head>
 <body>
     <header>

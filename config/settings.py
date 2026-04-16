@@ -118,5 +118,5 @@ USE_TZ = True
 STATIC_URL = 'static/'
 #folder path
 STATICFILES_DIRS = [   
-    BASE_DIR / "static",
+    BASE_DIR / "static_with_template" / "static",
 ]
