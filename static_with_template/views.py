@@ -20,13 +20,11 @@ def p1(request):
     return render(request, 'static_with_template/page1.html', body)
 
 def p2(request):
-    list1 = {
-        'list1': [1, 2, 100, 200]
-    }
-    dict1 = {
+    content2 = {
+        'list1': [1, 2, 100, 200],
         'dict1': {"A": 1, "B": 2, "C": 3, "D": 4, "E": 3}
     }
-    return render(request, 'static_with_template/page2.html', list1, dict1)
+    return render(request, 'static_with_template/page2.html', content2)
 
 
 # Create your views here.
